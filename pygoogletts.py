@@ -28,7 +28,7 @@ import httplib
 
 from urllib2 import urlopen, Request
 
-class pygoogletts:
+class GoogleTTS:
     
     def get_sound_stream(self, text, language=None, ie=None):
         """Get sound stream data with provided parameters.
