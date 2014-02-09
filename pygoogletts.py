@@ -51,7 +51,11 @@ class GoogleTTS:
 	return response.read()
 
     def get_response(self, params):
-        """Get connection response from Google Translate TTS Service."""
+        """Get connection response from Google Translate TTS Service.
+
+	:param params: request 'body' data
+
+	"""
         
 	url = 'http://translate.google.com/translate_tts'
 	
